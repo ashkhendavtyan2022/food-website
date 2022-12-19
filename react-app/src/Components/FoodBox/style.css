@@ -1,0 +1,20 @@
+@import "./../../assets/styles/style.css";
+
+.P-food-box{
+    width: 250px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.P-food-box img{
+    width: 100%;
+}
+
+.img-style {
+    margin-bottom: 20px;
+}
+
+.price-style {
+    color: #2F956D;
+    font-size: 20px;
+}
+
