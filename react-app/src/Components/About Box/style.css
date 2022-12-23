@@ -1,0 +1,41 @@
+@import "./../../assets/styles/style.css";
+
+.about-box {
+    width: 30%;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.about-box>img {
+ margin-bottom: 50px;
+}
+
+.about-box>p {
+    color: #626364;
+    line-height: 29px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.about-box>button {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.blue_btn {
+    color: blue;
+}
+
+.green_btn {
+    color: #319966;
+}
+
+.red_btn {
+    color: #993332;
+}

@@ -165,8 +165,6 @@ export class Foods extends Component{
 
     render(){
         return <div >
-            <div className="container"> 
-            <div className="wrapper">
                 <div className="P-buttons">
                     <button 
                         className={`passive ${this.state.active === 'pizza'? "active" : null}`} 
@@ -198,11 +196,7 @@ export class Foods extends Component{
                             description={elem.description}
                             price={elem.price}/>
                 })}
-                </div>
-            </div>
-            
-            </div>
-            
+                </div>           
         </div>
     }
 }

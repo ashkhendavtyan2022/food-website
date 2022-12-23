@@ -7,14 +7,17 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .header-row {
     display: flex;
+    justify-content: space-between;
     position: relative;
-    top: 77%;
-    margin: 50px;
-
+    width: 85%;
+    padding: 50px;
 }
 
 .logo-div {
@@ -56,21 +59,27 @@
 
 .menu-item {
     display: block;
-    list-style-type: none;
-
-}
-
-.menu-item {
+    cursor: pointer;
     font-weight: 400;
-    color: white;
     font-size: 17px;
-    padding-bottom: 5px;
+
 }
 
 .menu-item-margin {
     margin-right:  50px;
 }
 
-.menu-item:hover, .menu-item.active {
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.active {
     border-bottom: 2px solid white;
 }
