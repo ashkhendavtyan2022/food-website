@@ -20,22 +20,23 @@
 .about-box>button {
     display: inline-block;
     width: auto;
-    font-size: 16px;
-    text-align: center;
+    border: none;
     padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
     color: white;
     cursor: pointer;
-    border: none;
+    
 }
 
 .blue_btn {
-    color: blue;
+    background-color: #2D99CC;
 }
 
 .green_btn {
-    color: #319966;
+    background-color: #319966;
 }
 
 .red_btn {
-    color: #993332;
+    background-color: #993332;
 }

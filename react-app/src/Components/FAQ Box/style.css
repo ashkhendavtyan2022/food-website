@@ -1,6 +1,6 @@
 @import "./../../assets/styles/style.css";
 
-.faq-box .q-div {
+.q-div {
     width: 100%;
     text-align: center;
     border: 1px solid #d0d0d0;
@@ -9,19 +9,23 @@
     cursor: pointer;
     padding: 10px 20px 6px;
     font-size: 19px;
-    color: #09C;
-
+    color: #626364;
 }
 
-.faq-box .q-div {
+.q-div {
     display: flex;
     justify-content: space-between;
+}
+
+.q-div:hover {
+    color: #09C;
 }
 
 .faq-box>img {
     display: block;
 }
-.faq-box .a-div {
+
+.a-div {
     width: inherit;
     padding: 5px 20px 30px;
     font-size: 17px;
@@ -31,6 +35,10 @@
    
 }
 
-.faq-box .a-div-active {
+.a-div-active {
     display: block;
+}
+
+.q-div-active {
+    color: #09C;
 }

@@ -13,7 +13,7 @@ const FAQBox =(props) => {
     }
 
     return <div className="faq-box">
-        <div className="q-div" onClick={onClickQuestion}>{question} <img src={arrow} alt="arrow icon"/></div>
+        <div className={`q-div ${isOpen ? "q-div-active" : ""}`} onClick={onClickQuestion}>{question} <img src={arrow} alt="arrow icon"/></div>
         <div className={`a-div ${isOpen ? "a-div-active" : ""}`}>{answer}</div>
     </div>
 }

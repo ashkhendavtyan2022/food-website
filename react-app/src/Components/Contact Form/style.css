@@ -1,0 +1,91 @@
+@import "./../../assets/styles/style.css";
+
+.info-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-form, .contact-div {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.name-input, .email-input, .msg-input {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-weight: 400px;
+    font-size: 17px;
+    color: #626364;
+    line-height: 26px;
+    border: 1px solid #ced4da;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    margin-bottom: 10px;
+    outline-color: #CED4DA;
+}
+
+.msg-input {
+    resize: none;
+    height: 100px;
+}
+
+.btn-align {
+    text-align: right;
+}
+
+.form-btn {
+    display: inline-block;
+    background-color: #319966;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.contact-form>h4 {
+    font-size: 25px;
+    color: #319966;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contact-form address {
+    font-size: 17px;
+    font-style: 400;
+    color: #626364;
+    line-height: 30px;
+    margin-bottom: 55px;
+}
+
+.contact-a {
+    display: block;
+    width: auto;
+    height: 25px;
+    margin-bottom: 25px;
+    color: #626364;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.social-a img, .contact-a img {
+    margin-right: 20px;
+}
+
+.error-style {
+    height: 12px;
+    font-size: 12px;
+    color: #FF0000;
+    margin-bottom: 20px;
+
+}
