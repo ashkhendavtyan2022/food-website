@@ -112,6 +112,20 @@ export class Foods extends Component{
                     description: "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
                     price: "$75",
                     type: "salad",
+                },
+                {
+                    img: null,
+                    title: null,
+                    description: null,
+                    price: null,
+                    type: "salad",
+                }, 
+                {
+                    img: null,
+                    title: null,
+                    description: null,
+                    price: null,
+                    type: "salad",
                 }, 
                 {
                     img: img8,
@@ -120,6 +134,14 @@ export class Foods extends Component{
                     price: "$12.50",
                     type: "noodle",
                 },
+                {
+                    img: img7,
+                    title: "Noodle Second",
+                    description: "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                    price: "$15.50",
+                    type: "noodle",
+                },
+                
                 {
                     img: img6,
                     title: "Third Soft Noodle",
@@ -148,6 +170,20 @@ export class Foods extends Component{
                     price: "$40.50",
                     type: "noodle",
                 },
+                {
+                    img: null,
+                    title: null,
+                    description: null,
+                    price: null,
+                    type: "noodle",
+                }, 
+                {
+                    img: null,
+                    title: null,
+                    description: null,
+                    price: null,
+                    type: "noodle",
+                }, 
             ],
             active: false,
             filterlist: []

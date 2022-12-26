@@ -16,8 +16,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    width: 85%;
-    padding: 50px;
+    width: 75%;
+    padding: 50px 30px;
 }
 
 .logo-div {

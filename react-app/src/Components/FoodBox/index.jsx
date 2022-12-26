@@ -12,7 +12,7 @@ export class FoodBox extends Component{
         const {img,title,description,price} = this.props
 
         return <div className="P-food-box">
-        <img className="img-style" src={img} alt="nkar"/>
+        <img className="img-style" src={img}/>
         <h3 className="title-style">{title}</h3>
         <p className="desc-style">{description}</p>
         <span className="price-style">{price}</span>
